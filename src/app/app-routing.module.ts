@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'halachot',
     loadChildren: () => import('./pages/halachot/halachot.module').then( m => m.HalachotPageModule),
     canActivate: [DataReadyGuard],
+  },
+  {
+    path: 'sky-status',
+    loadChildren: () => import('./pages/sky-status/sky-status.module').then( m => m.SkyStatusPageModule)
   }
 ];
 

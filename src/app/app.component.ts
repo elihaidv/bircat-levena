@@ -40,6 +40,11 @@ export class AppComponent {
             icon: 'help-circle'
         },
         {
+            title: 'SKY_STATUS_TITLE',
+            url: '/sky-status',
+            icon: 'cloud'
+        },
+        {
             title: 'SETTINGS',
             url: '/settings',
             icon: 'options'
